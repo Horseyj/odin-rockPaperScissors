@@ -23,13 +23,13 @@ function getComputerChoice() {
 
     switch(a) {
         case 0:
-            computerChoice = "rock";
+            return computerChoice = "rock";
             break;
         case 1:
-            computerChoice = "paper";
+            return computerChoice = "paper";
             break;
         case 2:
-            computerChoice = "scissors";
+            return computerChoice = "scissors";
     }
     
 }
@@ -89,4 +89,7 @@ function playGame() {
         console.log("Game over. Draw!")
     }
 }
-    
+
+playGame()
+
+
